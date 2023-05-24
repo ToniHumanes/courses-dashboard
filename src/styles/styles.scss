@@ -1,0 +1,32 @@
+
+/* this structure css is based in ITCSS/BEM */
+
+// Settings
+
+@import './settings/vars';
+
+// tools
+
+@import './tools/px-to-rem';
+@import './tools//spaces';
+
+// generics
+
+@import './generics/normalize';
+
+// elements
+
+@import './elements/elements';
+
+// objects
+
+@import './objetcs/grid';
+
+// utilities
+
+@import './utilities/displays';
+@import './utilities/flex';
+@import './utilities/spaces';
+@import './utilities/backgrounds';
+@import './utilities/colors';
+@import './utilities/texts';
